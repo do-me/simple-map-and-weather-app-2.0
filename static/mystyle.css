@@ -1,0 +1,83 @@
+body{
+         margin: 0;
+         padding: 0;
+ font-family: 'Quicksand', sans-serif;
+ font-weight: 300;
+ letter-spacing: 1px;
+     }
+     body:before{
+         content: '';
+         position: fixed;
+         width: 100vw;
+         height: 100vh;
+         background-image: url("whitsundays.jpg");
+         background-position: center center;
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-size: cover;
+
+     }
+     .contact-form
+     {
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%,-50%);
+         width: 400px;
+         height: 500px;
+         padding: 10px 40px;
+         box-sizing: border-box;
+         background: rgba(0,0,0,.7);
+border-radius: 25px;
+text-align: center;
+color: #fff;			
+     }
+
+.contact-form {
+ font-family: 'Quicksand', sans-serif;
+ font-weight: 300;
+ letter-spacing: 1px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-weight: 500;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	text-align: center;
+	}
+
+input{padding:8px;display:block;border:none;border-bottom:1px solid #ccc;width:50%;border-radius:40px; text-align:center;
+font-family: 'Quicksand', sans-serif;
+ font-weight: 300;
+ letter-spacing: 1px;
+ color: black;
+ font-weight: 999;
+ background-color: white
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+
+
