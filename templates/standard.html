@@ -54,7 +54,7 @@
     
     	<script type="text/javascript">
     		var cloudmadeAttribution = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade',
-    			cloudmade = new L.TileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {attribution: cloudmadeAttribution});
+    			cloudmade = new L.TileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {attribution: cloudmadeAttribution});
     
     		var map = new L.Map('map').addLayer(cloudmade).setView(new L.LatLng(${latlong}), 13);
     
