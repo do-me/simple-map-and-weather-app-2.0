@@ -12,5 +12,5 @@ MarkupSafe==1.1.1
 pyowm==2.10.0
 requests==2.32.0
 urllib3==2.6.3
-Werkzeug==3.0.3
+Werkzeug==3.1.5
 wincertstore==0.2
